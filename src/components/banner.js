@@ -1,0 +1,47 @@
+import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import BackgroundImage from "gatsby-background-image"
+import Slider from "react-slick"
+
+export default function Banner() {
+  const data = useStaticQuery(graphql`
+    query {
+      allFile(filter: { relativeDirectory: { eq: "slider-images" } }) {
+        edges {
+          node {
+            childImageSharp {
+              # Specify the image processing specifications right in the query.
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  const images = data.allFile.edges.reverse()
+
+  const settings = {
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+  }
+
+  return (
+    <Slider {...settings}>
+      {images.map(image => (
+        <BackgroundImage
+          key={image.node.childImageSharp.fluid}
+          fluid={image.node.childImageSharp.fluid}
+          className="slider-image"
+        >
+          <h1>“Faire de toute contrainte une opportunité”</h1>
+        </BackgroundImage>
+      ))}
+    </Slider>
+  )
+}
