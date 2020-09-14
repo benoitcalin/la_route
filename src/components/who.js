@@ -41,7 +41,7 @@ export default function Who() {
             <br />
             Experts environnement, réglementation, HSE
             <br />
-            Partenaires de la réussite de vos projets
+            <em>Partenaire de la réussite de vos projets</em>
           </h3>
           <div className="row">
             <div className="col-4">
@@ -62,7 +62,7 @@ export default function Who() {
                 <p>
                   Votre partenaire sur le{" "}
                   <strong>
-                    volet environnementale et réglementaire de vos projets
+                    volet environnemental et réglementaire de vos projets
                   </strong>
                   , de vos installations, de vos programmes de planification et
                   d’aménagement.
