@@ -4,3 +4,10 @@
 @import 'banner';
 @import 'buttons';
 @import 'who';
+@import 'need';
+@import 'activities';
+
+#who, #need, #activities, #team {
+    padding-top: 80px;
+    margin-top: -80px;
+}

@@ -19,6 +19,7 @@ module.exports = {
     // Dealing with images with gatsby-images
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

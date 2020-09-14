@@ -36,7 +36,7 @@ export default function Header() {
 
   return (
     <div className="header">
-      <Link to="/">
+      <Link to="#start">
         <div className="header-logo">
           <Img
             fluid={data.file.childImageSharp.fluid}
@@ -45,19 +45,19 @@ export default function Header() {
         </div>
       </Link>
       <div className="header-links">
-        <Link className="linky" to="/">
+        <Link className="linky" to="#who">
           Qui sommes-nous ?
         </Link>
-        <Link className="linky" to="/">
+        <Link className="linky" to="#need">
           Vos besoins
         </Link>
-        <Link className="linky" to="/">
+        <Link className="linky" to="#activities">
           Nos activités
         </Link>
-        <Link className="linky" to="/">
+        <Link className="linky" to="#team">
           Notre équipe
         </Link>
-        <Link className="linky" to="/">
+        <Link className="linky" to="#footer">
           Contact
         </Link>
       </div>

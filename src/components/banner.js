@@ -39,7 +39,12 @@ export default function Banner() {
           fluid={image.node.childImageSharp.fluid}
           className="slider-image"
         >
-          <h1>“Faire de toute contrainte une opportunité”</h1>
+          <div>
+            <h1>“Faire de toute contrainte une opportunité”</h1>
+            <p>
+              <em>MJ Goubot</em>
+            </p>
+          </div>
         </BackgroundImage>
       ))}
     </Slider>
