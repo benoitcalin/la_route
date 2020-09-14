@@ -30,35 +30,44 @@ export default function Need() {
               <h3>Vos besoins</h3>
               <ul className="pr-4">
                 <li>
-                  Vous recherchez un partenaire engagé, à votre écoute, qui
-                  sache comprendre votre fonctionnement et vos ambitions et qui
-                  soit force de propositions.
+                  Vous recherchez un <strong>partenaire engagé</strong>, à votre
+                  écoute, qui sache comprendre votre fonctionnement et vos
+                  ambitions et <strong>qui soit force de propositions</strong>.
                 </li>
                 <li>
-                  Vous attendez de la disponibilité, de la réactivité, du
-                  pragmatisme.
+                  Vous attendez de la <strong>disponibilité</strong>, de la{" "}
+                  <strong>réactivité</strong>, du <strong>pragmatisme</strong>.
                 </li>
                 <li>
-                  Vous souhaitez un suivi stable par un consultant dédié qui
-                  vous accompagnera tout au long de votre projet.
+                  Vous souhaitez un{" "}
+                  <strong>suivi stable par un consultant dédié</strong> qui vous
+                  accompagnera tout au long de votre projet.
                 </li>
                 <li>
-                  Vos projets sont, par exemple, le développement d’une ICPE, la
-                  gestion de vos déchets. Ils concernent vos documents de
-                  planification et d’urbanisme (SCoT, PLUi, PCAET), la
-                  transition énergétique de votre territoire. Ils demandent la
-                  réalisation d’une évaluation environnementale, d’une étude de
-                  danger, d’une demande d’autorisation.
+                  Vos projets sont, par exemple,{" "}
+                  <strong>
+                    le développement d’une ICPE, la gestion de vos déchets
+                  </strong>
+                  . Ils concernent vos documents de planification et d’urbanisme
+                  (SCoT, PLUi, PCAET), la{" "}
+                  <strong>transition énergétique de votre territoire</strong>.
+                  Ils demandent la réalisation d’une{" "}
+                  <strong>évaluation environnementale</strong>, d’une{" "}
+                  <strong>étude de danger</strong>, d’une{" "}
+                  demande d’autorisation.
                 </li>
                 <li>
-                  Ils nécessitent à la fois une approche environnementale
-                  technique, réglementaire et une communication engageante,
-                  claire et efficace.
+                  Ils nécessitent à la fois une{" "}
+                  <strong>
+                    approche environnementale technique, réglementaire
+                  </strong>{" "}
+                  et une <strong>communication engageante</strong>, claire et
+                  efficace.
                 </li>
                 <li>
-                  Vous êtes un bureau d’études et avez besoin d’un soutien
-                  ponctuel. Vous êtes indépendants et souhaitez intégrer notre
-                  réseau d’experts.
+                  Vous êtes un bureau d’études et avez besoin d’un{" "}
+                  <strong>soutien ponctuel</strong>. Vous êtes indépendants et
+                  souhaitez <strong>intégrer notre réseau d’experts</strong>.
                 </li>
               </ul>
             </div>

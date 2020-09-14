@@ -27,7 +27,9 @@ export default function Surbanner() {
         }}
       >
         <h1>
-          Spécialiste en expertise environnementale, à votre service par ses
+          Spécialiste en expertise environnementale,
+          <br/>
+          à votre service par ses
           moyens et son expérience pour garantir la concrétisation de vos
           projets.
         </h1>
