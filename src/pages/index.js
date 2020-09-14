@@ -6,6 +6,7 @@ import Surbanner from "../components/surbanner"
 import Who from "../components/who"
 import Need from "../components/need"
 import Activities from "../components/activities"
+import Team from "../components/team"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Who />
       <Need />
       <Activities />
+      <Team />
     </Layout>
   )
 }

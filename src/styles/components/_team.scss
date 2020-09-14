@@ -1,0 +1,46 @@
+.team {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    font-style: italic;
+    font-weight: 600;
+    color: $brand-brown;
+    margin: 40px 0;
+  }
+  .team-card2 {
+    flex-direction: row-reverse;
+    padding-left: 2%;
+  }
+  .team-card {
+    display: flex;
+    .team-card-content {
+      position: relative;
+    }
+    h3 {
+      font-weight: 600;
+      color: $brand-color;
+      font-size: 24px;
+      text-align: left;
+    }
+    h4 {
+      font-style: italic;
+      font-weight: 600;
+      color: $brand-brown;
+      font-size: 18px;
+      line-height: 23px;
+    }
+    p {
+      margin: 0;
+      line-height: 28px;
+    }
+    .contact-link {
+      text-decoration: none;
+      color: $brand-color;
+      font-weight: 600;
+      &:hover {
+        color: $brand-brown;
+      }
+    }
+  }
+}

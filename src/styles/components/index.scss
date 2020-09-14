@@ -6,8 +6,9 @@
 @import 'who';
 @import 'need';
 @import 'activities';
+@import 'team';
 
 #who, #need, #activities, #team {
-    padding-top: 80px;
-    margin-top: -80px;
+  padding-top: 80px;
+  margin-top: -80px;
 }
