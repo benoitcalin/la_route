@@ -71,7 +71,12 @@ export default function Need() {
             </div>
           </div>
           <div className="btn-geoness-container">
-            <a className="btn btn-geoness my-3">Contactez-nous</a>
+            <a
+              href="mailto:contact@geoness.net?subject=Message à Geoness depuis le site internet"
+              className="btn btn-geoness my-3"
+            >
+              Contactez-nous
+            </a>
           </div>
           <div className="row clients-assets">
             <div className="col-6">

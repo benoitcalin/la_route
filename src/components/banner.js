@@ -21,7 +21,7 @@ export default function Banner() {
     }
   `)
 
-  const images = data.allFile.edges.reverse()
+  const images = data.allFile.edges
 
   const settings = {
     infinite: true,
