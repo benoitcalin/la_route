@@ -6,7 +6,7 @@ import BackgroundImage from "gatsby-background-image"
 export default function Surbanner() {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "images/subbanner.png" }) {
+      file(relativePath: { eq: "images/surbanner-v2.png" }) {
         childImageSharp {
           # Specify the image processing specifications right in the query.
           fluid(maxWidth: 1200) {
@@ -29,7 +29,7 @@ export default function Surbanner() {
         <h1>
           Spécialiste en expertise environnementale,
           <br/>
-          à votre service par ses
+          À votre service par ses
           moyens et son expérience pour garantir la concrétisation de vos
           projets.
         </h1>

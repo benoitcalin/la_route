@@ -44,7 +44,11 @@ export default function Team() {
             </div>
             <div className="team-card-content col-8">
               <div className="btn-geoness-container btn-cv">
-                <a href="#" className="btn btn-geoness my-3">
+                <a
+                  href="https://res.cloudinary.com/di2wcculd/image/upload/v1600184791/GEONESS/MJ_GOUBOT_CV_site.pdf"
+                  className="btn btn-geoness my-3"
+                  target="_blank"
+                >
                   CV
                 </a>
               </div>
@@ -84,7 +88,11 @@ export default function Team() {
             </div>
             <div className="team-card-content col-8">
               <div className="btn-geoness-container btn-cv">
-                <a href="#" className="btn btn-geoness my-3">
+                <a
+                  href="https://res.cloudinary.com/di2wcculd/image/upload/v1600184792/GEONESS/C_Touvenot_CV_site.pdf"
+                  className="btn btn-geoness my-3"
+                  target="_blank"
+                >
                   CV
                 </a>
               </div>

@@ -2,11 +2,15 @@
   // min-height: 80vh;
   display: flex;
   flex-direction: column;
+  .subtitle-need {
+    color: $brand-darkgreen;
+    font-weight: 600;
+  }
   h3 {
     color: $brand-darkgreen;
     font-weight: 600;
     text-align: left;
-    margin: 40px 20px;
+    margin: 40px 0;
   }
   li {
     margin: 10px 0;

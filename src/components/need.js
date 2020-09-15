@@ -28,48 +28,56 @@ export default function Need() {
           <div className="row">
             <div className="col-9">
               <h3>Vos besoins</h3>
+              <p className="subtitle-need">
+                Vous êtes une entreprise, une collectivité :
+              </p>
               <ul className="pr-4">
                 <li>
                   Vous recherchez un <strong>partenaire engagé</strong>, à votre
                   écoute, qui sache comprendre votre fonctionnement et vos
-                  ambitions et <strong>qui soit force de propositions</strong>.
+                  ambitions et qui soit <strong>force de propositions</strong>.
                 </li>
                 <li>
                   Vous attendez de la <strong>disponibilité</strong>, de la{" "}
                   <strong>réactivité</strong>, du <strong>pragmatisme</strong>.
                 </li>
                 <li>
-                  Vous souhaitez un{" "}
-                  <strong>suivi stable par un consultant dédié</strong> qui vous
-                  accompagnera tout au long de votre projet.
+                  Vous souhaitez un <strong>suivi stable</strong> par un{" "}
+                  <strong>consultant dédié</strong> qui vous accompagnera tout
+                  au long de votre projet.
                 </li>
                 <li>
-                  Vos projets sont, par exemple,{" "}
-                  <strong>
-                    le développement d’une ICPE, la gestion de vos déchets
-                  </strong>
-                  . Ils concernent vos documents de planification et d’urbanisme
+                  Vos projets sont, par exemple, le développement d’une{" "}
+                  <strong>ICPE</strong>, la <strong>gestion</strong> de vos{" "}
+                  <strong>déchets</strong>. Ils concernent vos documents de
+                  <strong>planification</strong> et d’<strong>urbanisme</strong>{" "}
                   (SCoT, PLUi, PCAET), la{" "}
-                  <strong>transition énergétique de votre territoire</strong>.
+                  <strong>transition énergétique</strong> de votre territoire.
                   Ils demandent la réalisation d’une{" "}
-                  <strong>évaluation environnementale</strong>, d’une{" "}
-                  <strong>étude de danger</strong>, d’une{" "}
-                  demande d’autorisation.
+                  <strong>évaluation environnementale stratégique</strong>,
+                  d’une <strong>étude de danger</strong>, d’une{" "}
+                  <strong>demande d’autorisation</strong>.
                 </li>
                 <li>
-                  Ils nécessitent à la fois une{" "}
-                  <strong>
-                    approche environnementale technique, réglementaire
-                  </strong>{" "}
-                  et une <strong>communication engageante</strong>, claire et
-                  efficace.
-                </li>
-                <li>
-                  Vous êtes un bureau d’études et avez besoin d’un{" "}
-                  <strong>soutien ponctuel</strong>. Vous êtes indépendants et
-                  souhaitez <strong>intégrer notre réseau d’experts</strong>.
+                  Ils nécessitent à la fois une approche environnementale
+                  technique, réglementaire et une{" "}
+                  <strong>communication engageante</strong>, claire et efficace.
                 </li>
               </ul>
+
+              <p className="mb-3">
+                <strong className="subtitle-need">
+                  Vous êtes un bureau d’études{" "}
+                </strong>
+                et avec besoin d'un soutien ponctuel.
+              </p>
+
+              <p className="mb-3">
+                <strong className="subtitle-need">
+                  Vous êtes indépendants{" "}
+                </strong>
+                et souhaitez <strong>intégrer notre réseau d’experts</strong>.
+              </p>
             </div>
             <div className="col-3 image-need">
               <Img
