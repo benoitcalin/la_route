@@ -27,22 +27,24 @@ export default function Who() {
   return (
     <div id="who">
       <div className="who">
-        <div className="map-container">
-          <Img
-            fluid={data.image2.childImageSharp.fluid}
-            alt="Image carte de france"
-            className="map"
-          />
-        </div>
         <div className="container">
           <h2>QUI SOMMES-NOUS ?</h2>
-          <h3>
-            Consultants indépendants
-            <br />
-            Experts environnement, réglementation, HSE
-            <br />
-            <em>Partenaire de la réussite de vos projets</em>
-          </h3>
+          <div className="mapmap">
+            <div className="map-container">
+              <Img
+                fluid={data.image2.childImageSharp.fluid}
+                alt="Image carte de france"
+                className="map"
+              />
+            </div>
+            <h3>
+              Consultants indépendants
+              <br />
+              Experts environnement, réglementation, HSE
+              <br />
+              <em>Partenaire de la réussite de vos projets</em>
+            </h3>
+          </div>
           <div className="row">
             <div className="col-4">
               <Img

@@ -83,6 +83,10 @@ export default function Need() {
                 fluid={data.file.childImageSharp.fluid}
                 alt="Photo d'une fleur"
                 className="fleur"
+                imgStyle={{
+                  maxHeight: "450px",
+                  maxWidth: "300px"
+                }}
               />
             </div>
           </div>

@@ -31,7 +31,7 @@ export default function Team() {
           <h2>NOTRE ÉQUIPE</h2>
 
           <div className="team-card row">
-            <div className="col-4 d-flex align-items-center justify-content-center">
+            <div className="col-3 d-flex align-items-center justify-content-center">
               <Img
                 fluid={data.image1.childImageSharp.fluid}
                 alt="Marie-Julia GOUBOT"
@@ -42,7 +42,7 @@ export default function Team() {
                 }}
               />
             </div>
-            <div className="team-card-content col-8">
+            <div className="team-card-content col-9">
               <div className="btn-geoness-container btn-cv">
                 <a
                   href="https://res.cloudinary.com/di2wcculd/image/upload/v1600184791/GEONESS/MJ_GOUBOT_CV_site.pdf"
@@ -78,7 +78,7 @@ export default function Team() {
           </div>
 
           <div className="team-card team-card2 row">
-            <div className="col-4 d-flex align-items-center justify-content-center">
+            <div className="col-3 d-flex align-items-center justify-content-center">
               <Img
                 fluid={data.image2.childImageSharp.fluid}
                 alt="Coralie TOUVENOT"
@@ -89,7 +89,7 @@ export default function Team() {
                 }}
               />
             </div>
-            <div className="team-card-content col-8">
+            <div className="team-card-content col-9">
               <div className="btn-geoness-container btn-cv">
                 <a
                   href="https://res.cloudinary.com/di2wcculd/image/upload/v1600184792/GEONESS/C_Touvenot_CV_site.pdf"

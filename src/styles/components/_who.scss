@@ -20,11 +20,13 @@
   .who-values {
     color: $brand-color;
   }
+  .mapmap {
+    position: relative;
+  }
   .map-container {
     position: absolute;
     width: 100px;
-    top: 100px;
-    right: 200px;
+    right: 0px;
   }
 }
 
