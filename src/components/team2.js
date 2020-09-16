@@ -28,7 +28,7 @@ export default function Team2() {
     <div className="team">
       <div className="container">
         <div className="team-card row">
-          <div className="col-6 team-2-card">
+          <div className="col-sm-12 col-md-6 team-2-card">
             <Img
               fluid={data.image1.childImageSharp.fluid}
               alt="Marie-Julia GOUBOT"
@@ -43,7 +43,7 @@ export default function Team2() {
             <h4>Fondatrice de GEONESS (2012)</h4>
           </div>
 
-          <div className="col-6 team-2-card">
+          <div className="col-sm-12 col-md-6 team-2-card">
             <Img
               fluid={data.image2.childImageSharp.fluid}
               alt="Coralie TOUVENOT"

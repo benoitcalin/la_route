@@ -31,11 +31,11 @@ export default function Footer() {
     <div className="footer" id="footer">
       <BackgroundImage
         fluid={data.image1.childImageSharp.fluid}
-        className="w-100"
+        className="w-100 background-footer"
         style={{ height: "100px" }}
         imgStyle={{ height: "100px" }}
       >
-        <div className="d-flex justify-content-between align-items-center h-100">
+        <div className="d-flex justify-content-between align-items-center footer-wrapper h-100">
           <div className="footer-logo">
             <Img
               fluid={data.image2.childImageSharp.fluid}
@@ -44,7 +44,6 @@ export default function Footer() {
               imgStyle={{
                 width: "400px",
                 objectFit: "contain",
-                // marginLeft: "15%",
               }}
             />
           </div>

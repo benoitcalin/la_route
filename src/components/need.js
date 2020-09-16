@@ -26,7 +26,7 @@ export default function Need() {
       <div className="need">
         <div className="container">
           <div className="row">
-            <div className="col-9">
+            <div className="col-sm-12 col-md-9">
               <h3>Vos besoins</h3>
               <p className="subtitle-need">
                 Vous êtes une entreprise, une collectivité :
@@ -76,16 +76,15 @@ export default function Need() {
                   et souhaitez <strong>intégrer notre réseau d’experts</strong>.
                 </li>
               </ul>
-
             </div>
-            <div className="col-3 image-need">
+            <div className="col-sm-12 col-md-3 image-need">
               <Img
                 fluid={data.file.childImageSharp.fluid}
                 alt="Photo d'une fleur"
                 className="fleur"
                 imgStyle={{
                   maxHeight: "450px",
-                  maxWidth: "300px"
+                  maxWidth: "300px",
                 }}
               />
             </div>
@@ -99,7 +98,7 @@ export default function Need() {
             </a>
           </div>
           <div className="row clients-assets">
-            <div className="col-6">
+            <div className="col-xs-12 col-sm-6">
               <h3>
                 Nos clients
                 <FontAwesomeIcon
@@ -114,7 +113,7 @@ export default function Need() {
                 <li>Bureaux d’études</li>
               </ul>
             </div>
-            <div className="col-6">
+            <div className="col-xs-12 col-sm-6">
               <h3>
                 Nos atouts
                 <FontAwesomeIcon

@@ -46,14 +46,14 @@ export default function Who() {
             </h3>
           </div>
           <div className="row">
-            <div className="col-4">
+            <div className="col-sm-12 col-md-4">
               <Img
                 fluid={data.image1.childImageSharp.fluid}
                 alt="Photo d'un carrière"
               />
             </div>
-            <div className="col-8 d-flex align-items-center">
-              <div className="content">
+            <div className="col-sm-12 col-md-8 d-flex align-items-center">
+              <div className="content mt-sm-4">
                 <p>
                   <strong>Bienvenue,</strong>
                 </p>

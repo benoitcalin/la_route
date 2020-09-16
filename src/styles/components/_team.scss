@@ -60,3 +60,18 @@
   justify-content: space-evenly;
   height: 500px;
 }
+
+@media(max-width: 550px) {
+  .team-card-content {
+    h3 {
+      font-size: 22px !important;
+      margin-top: 50px !important;
+    }
+    h4 {
+      font-size: 15px !important;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
