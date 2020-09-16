@@ -67,19 +67,19 @@ export default function Header() {
         <span></span>
       </div>
       <div className="navbar-collapse">
-        <Link className="linky" to="/">
+        <Link className="linky" to="#who">
           Qui sommes-nous ?
-        </Link>
-        <Link className="linky" to="/">
+          </Link>
+        <Link className="linky" to="#need">
           Vos besoins
-        </Link>
-        <Link className="linky" to="/">
+          </Link>
+        <Link className="linky" to="#activities">
           Nos activités
-        </Link>
-        <Link className="linky" to="/">
+          </Link>
+        <Link className="linky" to="#team">
           Notre équipe
-        </Link>
-        <Link className="linky" to="/">
+          </Link>
+        <Link className="linky" to="#footer">
           Contact
         </Link>
       </div>
