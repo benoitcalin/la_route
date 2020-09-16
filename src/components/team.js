@@ -30,7 +30,7 @@ export default function Team() {
         <div className="container">
           <h2>NOTRE ÉQUIPE</h2>
 
-          <div className="team-card row mb-4">
+          <div className="team-card row">
             <div className="col-4 d-flex align-items-center justify-content-center">
               <Img
                 fluid={data.image1.childImageSharp.fluid}
@@ -74,7 +74,10 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="team-card team-card2 row mb-4">
+          <div className="team-limit">
+          </div>
+
+          <div className="team-card team-card2 row">
             <div className="col-4 d-flex align-items-center justify-content-center">
               <Img
                 fluid={data.image2.childImageSharp.fluid}
@@ -100,8 +103,7 @@ export default function Team() {
               <h4>Ingénieur Sécurité Environnement</h4>
               <h4>Collaboratrice au sein de GEONESS depuis 2012</h4>
               <h4 className="mb-4">
-                Spécialisation HSE et plusieurs expériences professionnelles en
-                entreprise ou au sein de collectivités
+                Spécialisation HSE
               </h4>
 
               <p>Passions : pâtisserie, création</p>

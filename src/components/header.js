@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 export default function Header() {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "images/logo-simple.png" }) {
+      file(relativePath: { eq: "images/logo-linear.png" }) {
         childImageSharp {
           # Specify the image processing specifications right in the query.
           fluid(maxWidth: 400) {

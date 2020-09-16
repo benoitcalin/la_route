@@ -49,7 +49,7 @@ export default function Need() {
                 <li>
                   Vos projets sont, par exemple, le développement d’une{" "}
                   <strong>ICPE</strong>, la <strong>gestion</strong> de vos{" "}
-                  <strong>déchets</strong>. Ils concernent vos documents de
+                  <strong>déchets</strong>. Ils concernent vos documents de{" "}
                   <strong>planification</strong> et d’<strong>urbanisme</strong>{" "}
                   (SCoT, PLUi, PCAET), la{" "}
                   <strong>transition énergétique</strong> de votre territoire.
@@ -65,19 +65,18 @@ export default function Need() {
                 </li>
               </ul>
 
-              <p className="mb-3">
-                <strong className="subtitle-need">
-                  Vous êtes un bureau d’études{" "}
-                </strong>
-                et avec besoin d'un soutien ponctuel.
-              </p>
+              <p className="subtitle-need">Vous êtes un bureau d’études :</p>
+              <ul className="pr-4">
+                <li>et avec besoin d'un soutien ponctuel.</li>
+              </ul>
 
-              <p className="mb-3">
-                <strong className="subtitle-need">
-                  Vous êtes indépendants{" "}
-                </strong>
-                et souhaitez <strong>intégrer notre réseau d’experts</strong>.
-              </p>
+              <p className="subtitle-need">Vous êtes indépendants :</p>
+              <ul className="pr-4">
+                <li>
+                  et souhaitez <strong>intégrer notre réseau d’experts</strong>.
+                </li>
+              </ul>
+
             </div>
             <div className="col-3 image-need">
               <Img

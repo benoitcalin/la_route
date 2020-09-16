@@ -6,7 +6,10 @@ import Slider from "react-slick"
 export default function Banner() {
   const data = useStaticQuery(graphql`
     query {
-      allFile(filter: { relativeDirectory: { eq: "slider-images" } }) {
+      allFile(
+        sort: { fields: childImageSharp___fluid___originalName },
+        filter: { relativeDirectory: { eq: "slider-images" } }
+      ) {
         edges {
           node {
             childImageSharp {
