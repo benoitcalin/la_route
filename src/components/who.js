@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 export default function Who() {
   const data = useStaticQuery(graphql`
     query {
-      image1: file(relativePath: { eq: "images/carriere.jpg" }) {
+      image1: file(relativePath: { eq: "images/concass.jpg" }) {
         childImageSharp {
           # Specify the image processing specifications right in the query.
           fluid(maxWidth: 800) {
@@ -29,7 +29,7 @@ export default function Who() {
       <div className="who">
         <div className="container">
           <h2>QUI SOMMES-NOUS ?</h2>
-          <div className="mapmap">
+          <div className="mapmap mb-4">
             <div className="map-container">
               <Img
                 fluid={data.image2.childImageSharp.fluid}
@@ -38,7 +38,7 @@ export default function Who() {
               />
             </div>
             <h3>
-              Consultants indépendants
+              Bureau d'études
               <br />
               Experts environnement, réglementation, HSE
               <br />
@@ -53,21 +53,19 @@ export default function Who() {
               />
             </div>
             <div className="col-sm-12 col-md-8 d-flex align-items-center">
-              <div className="content mt-sm-4">
+              <div className="content mt-4 mt-md-0">
                 <p>
                   <strong>Bienvenue,</strong>
                 </p>
                 <p>
-                  Nous sommes <strong>GEONESS Développement</strong>, bureau
-                  d’études en conseils et ingénierie environnementale.
+                  Nous sommes <strong>GEONESS Développement</strong>,
+                  consultants en conseils et ingénierie environnementale.
                 </p>
                 <p>
                   Votre partenaire sur le{" "}
                   <strong>
-                    volet environnemental et réglementaire de vos projets
+                    volet environnemental et réglementaire de vos projets.
                   </strong>
-                  , de vos installations, de vos programmes de planification et
-                  d’aménagement.
                 </p>
                 <p className="mb-0">
                   <strong>
@@ -79,11 +77,17 @@ export default function Who() {
                 </p>
               </div>
             </div>
-            <h3 className="text-center w-100 who-values">
-              FIABILITÉ &nbsp;&nbsp;-&nbsp;&nbsp; SAVOIR-FAIRE
-              &nbsp;&nbsp;-&nbsp;&nbsp; ADAPTABILITÉ &nbsp;&nbsp;-&nbsp;&nbsp;
-              CONSEIL
-            </h3>
+            <div className="w-100 d-flex flex-column flex-md-row flew-wrap align-items-center justify-content-center">
+              <h3 className="who-values">
+                FIABILITÉ &nbsp;&nbsp;-&nbsp;&nbsp; SAVOIR-FAIRE
+              </h3>
+              <span className="d-none d-md-inline">
+                <h3 className="who-values">&nbsp;&nbsp;-&nbsp;&nbsp; </h3>
+              </span>
+              <h3 className="who-values">
+                ADAPTABILITÉ &nbsp;&nbsp;-&nbsp;&nbsp; CONSEIL
+              </h3>
+            </div>
           </div>
         </div>
       </div>

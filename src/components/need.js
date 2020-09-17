@@ -10,7 +10,7 @@ import {
 export default function Need() {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "images/fleur.png" }) {
+      file(relativePath: { eq: "images/dumperroseaux.png" }) {
         childImageSharp {
           # Specify the image processing specifications right in the query.
           fluid(maxWidth: 800) {
@@ -26,65 +26,49 @@ export default function Need() {
       <div className="need">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 col-md-9">
+            <div className="col-sm-12 col-md-8">
               <h3>Vos besoins</h3>
               <p className="subtitle-need">
                 Vous êtes une entreprise, une collectivité :
               </p>
               <ul className="pr-4">
                 <li>
-                  Vous recherchez un <strong>partenaire engagé</strong>, à votre
-                  écoute, qui sache comprendre votre fonctionnement et vos
-                  ambitions et qui soit <strong>force de propositions</strong>.
+                  Vous recherchez un <strong>partenaire engagé</strong>,{" "}
+                  <strong>force de propositions</strong>
                 </li>
                 <li>
                   Vous attendez de la <strong>disponibilité</strong>, de la{" "}
-                  <strong>réactivité</strong>, du <strong>pragmatisme</strong>.
+                  <strong>réactivité</strong>, du <strong>pragmatisme</strong>
                 </li>
                 <li>
                   Vous souhaitez un <strong>suivi stable</strong> par un{" "}
-                  <strong>consultant dédié</strong> qui vous accompagnera tout
-                  au long de votre projet.
-                </li>
-                <li>
-                  Vos projets sont, par exemple, le développement d’une{" "}
-                  <strong>ICPE</strong>, la <strong>gestion</strong> de vos{" "}
-                  <strong>déchets</strong>. Ils concernent vos documents de{" "}
-                  <strong>planification</strong> et d’<strong>urbanisme</strong>{" "}
-                  (SCoT, PLUi, PCAET), la{" "}
-                  <strong>transition énergétique</strong> de votre territoire.
-                  Ils demandent la réalisation d’une{" "}
-                  <strong>évaluation environnementale stratégique</strong>,
-                  d’une <strong>étude de danger</strong>, d’une{" "}
-                  <strong>demande d’autorisation</strong>.
-                </li>
-                <li>
-                  Ils nécessitent à la fois une approche environnementale
-                  technique, réglementaire et une{" "}
-                  <strong>communication engageante</strong>, claire et efficace.
+                  <strong>consultant dédié</strong> tout au long de votre projet
                 </li>
               </ul>
 
               <p className="subtitle-need">Vous êtes un bureau d’études :</p>
               <ul className="pr-4">
-                <li>et avec besoin d'un soutien ponctuel.</li>
+                <li>
+                  Avec besoin d'un <strong>soutien ponctuel</strong>
+                </li>
               </ul>
 
-              <p className="subtitle-need">Vous êtes indépendants :</p>
+              <p className="subtitle-need">Vous êtes indépendant :</p>
               <ul className="pr-4">
                 <li>
-                  et souhaitez <strong>intégrer notre réseau d’experts</strong>.
+                  Contactez-nous et <strong>intégrez notre réseau</strong>{" "}
+                  d’experts
                 </li>
               </ul>
             </div>
-            <div className="col-sm-12 col-md-3 image-need">
+            <div className="col-sm-12 col-md-4 image-need">
               <Img
                 fluid={data.file.childImageSharp.fluid}
-                alt="Photo d'une fleur"
+                alt="Dumper camion de carrières"
                 className="fleur"
                 imgStyle={{
                   maxHeight: "450px",
-                  maxWidth: "300px",
+
                 }}
               />
             </div>
@@ -124,15 +108,12 @@ export default function Need() {
               </h3>
               <ul className="asset-list">
                 <li>
-                  GEONESS développement est une structure souple par son
-                  organisation et robuste par l’engagement de ses collaborateurs
-                  et la confiance de ses clients.
+                  Une structure souple par son organisation, robuste par
+                  l’engagement de ses collaborateurs et la confiance de ses
+                  clients
                 </li>
-                <li>
-                  Notre volonté est de conserver une structure agile en
-                  cultivant nos points de vue et en poursuivant la construction
-                  d’un réseau de consultants.
-                </li>
+                <li>Notre approche transversale​</li>
+                <li>Une communication engageante, claire, efficace​</li>
               </ul>
             </div>
           </div>

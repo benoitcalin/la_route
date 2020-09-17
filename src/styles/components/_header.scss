@@ -28,7 +28,12 @@
   }
 }
 
-.active {
+.header-links a.active {
+  display: flex;
+  color: $brand-brown;
+}
+
+.active-menu {
   display: flex;
 }
 

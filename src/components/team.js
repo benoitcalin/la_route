@@ -45,7 +45,7 @@ export default function Team() {
             <div className="team-card-content col-xs-12 col-md-8 col-lg-9">
               <div className="btn-geoness-container btn-cv">
                 <a
-                  href="https://res.cloudinary.com/di2wcculd/image/upload/v1600184791/GEONESS/MJ_GOUBOT_CV_site.pdf"
+                  href="https://res.cloudinary.com/di2wcculd/image/upload/v1600344236/GEONESS/MJ_Goubot_CV.pdf"
                   className="btn btn-geoness my-3"
                   target="_blank"
                 >
@@ -91,7 +91,7 @@ export default function Team() {
             <div className="team-card-content col-xs-12 col-md-8 col-lg-9">
               <div className="btn-geoness-container btn-cv">
                 <a
-                  href="https://res.cloudinary.com/di2wcculd/image/upload/v1600184792/GEONESS/C_Touvenot_CV_site.pdf"
+                  href="https://res.cloudinary.com/di2wcculd/image/upload/v1600344236/GEONESS/C_Touvenot_CV.pdf"
                   className="btn btn-geoness my-md-3"
                   target="_blank"
                 >

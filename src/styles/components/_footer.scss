@@ -28,6 +28,15 @@
       flex-direction: column;
       justify-content: space-evenly;
       padding-right: 30px;
+      a {
+        color: black;
+        text-decoration: none;
+        font-weight: 600;
+        height: auto;
+        &:hover {
+          color: $brand-color;
+        }
+      }
     }
   }
   .footer-icon {

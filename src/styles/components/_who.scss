@@ -15,10 +15,10 @@
     color: $brand-brown;
     font-weight: 600;
     line-height: 40px;
-    margin: 40px 0;
   }
   .who-values {
     color: $brand-color;
+    margin: 40px 0;
   }
   .mapmap {
     position: relative;
@@ -33,5 +33,8 @@
 @media(max-width: 767px) {
   .map-container {
     display: none;
+  }
+  .who .who-values {
+    margin: 15px 0;
   }
 }

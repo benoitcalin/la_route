@@ -76,8 +76,8 @@ export default function Footer() {
               </p>
             </div>
             <div className="footer-content-right">
-              <p>Références</p>
-              <p>Mentions Légales</p>
+              <p className="d-none">Références</p>
+              <a href="/mentions" target="_blank">Mentions Légales</a>
             </div>
           </div>
         </div>

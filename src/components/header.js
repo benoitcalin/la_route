@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from 'gatsby-image';
 
@@ -18,21 +18,53 @@ export default function Header() {
 
   function handleClick(event) {
     event.currentTarget.classList.toggle('open')
-    document.querySelector('.navbar-collapse').classList.toggle('active')
+    document.querySelector(".navbar-collapse").classList.toggle("active-menu")
   }
 
-  // componentDidMount() {
-  //   const links = document.querySelectorAll('.linky')
+  useEffect(() => {
+    const who = document.getElementById("who")
+    const need = document.getElementById("need")
+    const activities = document.getElementById("activities")
+    const team = document.getElementById("team")
+    const footer = document.getElementById("footer")
+    const links = document.querySelectorAll(".header-links > a")
 
-  //   links.forEach(link => {
-  //     if (link.pathname === window.location.pathname) {
-  //       link.classList.add('colored-link')
-  //     }
-  //   })
-  //   if (window.location.pathname.substring(0, 5) === '/jobs') {
-  //     links[1].classList.add('colored-link')
-  //   }
-  // }
+    if (links) {
+      document.addEventListener('scroll', () => {
+        console.log(
+          window.scrollY >=
+            document.documentElement.scrollHeight - window.innerHeight - 10
+        )
+        if (window.scrollY > (who.offsetTop - 10) && window.scrollY < need.offsetTop) {
+          links.forEach(link => link.classList.remove("active"))
+          links[0].classList.add("active")
+        } else if (
+          window.scrollY > (need.offsetTop - 10) &&
+          window.scrollY < activities.offsetTop
+        ) {
+          links.forEach(link => link.classList.remove("active"))
+          links[1].classList.add("active")
+        } else if (
+          window.scrollY > (activities.offsetTop - 10) &&
+          window.scrollY < team.offsetTop
+        ) {
+          links.forEach(link => link.classList.remove("active"))
+          links[2].classList.add("active")
+        } else if (window.scrollY >= document.documentElement.scrollHeight - window.innerHeight - 10) {
+          links.forEach(link => link.classList.remove("active"))
+          links[4].classList.add("active")
+        } else if (
+          window.scrollY > (team.offsetTop - 10) &&
+          window.scrollY < footer.offsetTop
+        ) {
+          links.forEach(link => link.classList.remove("active"))
+          links[3].classList.add("active")
+        } else {
+          links.forEach(link => link.classList.remove("active"))
+        }
+      })
+    }
+  })
 
   return (
     <div className="header">
@@ -69,16 +101,16 @@ export default function Header() {
       <div className="navbar-collapse">
         <Link className="linky" to="#who">
           Qui sommes-nous ?
-          </Link>
+        </Link>
         <Link className="linky" to="#need">
           Vos besoins
-          </Link>
+        </Link>
         <Link className="linky" to="#activities">
           Nos activités
-          </Link>
+        </Link>
         <Link className="linky" to="#team">
           Notre équipe
-          </Link>
+        </Link>
         <Link className="linky" to="#footer">
           Contact
         </Link>
