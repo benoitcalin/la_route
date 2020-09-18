@@ -31,10 +31,6 @@ export default function Header() {
 
     if (links) {
       document.addEventListener('scroll', () => {
-        console.log(
-          window.scrollY >=
-            document.documentElement.scrollHeight - window.innerHeight - 10
-        )
         if (window.scrollY > (who.offsetTop - 10) && window.scrollY < need.offsetTop) {
           links.forEach(link => link.classList.remove("active"))
           links[0].classList.add("active")
