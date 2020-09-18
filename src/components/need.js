@@ -106,7 +106,7 @@ export default function Need() {
                   className="fontawesome-icons"
                 />
               </h3>
-              <ul className="asset-list">
+              <ul className="asset-list ml-3 ml-sm-0">
                 <li>
                   Une structure souple par son organisation, robuste par
                   l’engagement de ses collaborateurs et la confiance de ses

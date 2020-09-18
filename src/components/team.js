@@ -53,7 +53,7 @@ export default function Team() {
                 </a>
               </div>
               <h3 className="mb-2">Marie-Julia GOUBOT</h3>
-              <h4>Ingénieur ENS Géologie</h4>
+              <h4>Ingénieur diplômée INPL - ENSG</h4>
               <h4>Fondatrice de GEONESS (2012)</h4>
               <h4 className="mb-4">
                 Après 8 années de collaboration au sein d’un BE indépendant
@@ -61,7 +61,7 @@ export default function Team() {
               </h4>
 
               <p>Passions : sport, développement professionnel</p>
-              <p>Hobbies : décorations, découverte des territoires</p>
+              <p>Hobbies : décoration, découverte des territoires</p>
               <p>Atouts : sens du contact, vision prospective</p>
               <p className="mb-4">Points forts : persévérance, ambition</p>
 
@@ -99,9 +99,9 @@ export default function Team() {
                 </a>
               </div>
               <h3 className="mb-2">Coralie TOUVENOT</h3>
-              <h4>Ingénieur Sécurité Environnement</h4>
+              <h4>Ingénieur Environnement</h4>
               <h4>Collaboratrice au sein de GEONESS depuis 2012</h4>
-              <h4 className="mb-4">Spécialisation HSE</h4>
+              <h4 className="mb-4">Spécialisation QSE</h4>
 
               <p>Passions : pâtisserie, création</p>
               <p>Hobbies : DIY, voyages</p>

@@ -39,7 +39,7 @@ export default function Team2() {
               }}
             />
             <h3 className="mb-2">Marie-Julia GOUBOT</h3>
-            <h4>Ingénieur ENS Géologie</h4>
+            <h4>Ingénieur diplômée INPL - ENSG</h4>
             <h4>Fondatrice de GEONESS (2012)</h4>
           </div>
 
@@ -54,8 +54,8 @@ export default function Team2() {
               }}
             />
             <h3 className="mb-2">Coralie TOUVENOT</h3>
-            <h4>Ingénieur Sécurité Environnement</h4>
-            <h4 className="mb-4">Spécialisation HSE</h4>
+            <h4>Ingénieur Environnement</h4>
+            <h4 className="mb-4">Spécialisation QSE</h4>
           </div>
         </div>
       </div>

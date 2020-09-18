@@ -67,7 +67,7 @@ export default function Who() {
                     volet environnemental et réglementaire de vos projets.
                   </strong>
                 </p>
-                <p className="mb-0">
+                <p className="mb-0 d-none d-md-block">
                   <strong>
                     GEONESS Développement est un bureau d’études en perpétuel
                     développement
