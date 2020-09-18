@@ -10,7 +10,7 @@ import {
 export default function Need() {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "images/dumperroseaux.png" }) {
+      file(relativePath: { eq: "images/dumperroseaux2.png" }) {
         childImageSharp {
           # Specify the image processing specifications right in the query.
           fluid(maxWidth: 800) {
