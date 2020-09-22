@@ -32,6 +32,7 @@ export default function Banner() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2500,
+    pauseOnHover: false
   }
 
   return (
