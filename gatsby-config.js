@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     // Dealing with images with gatsby-images
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-fontawesome-css`,
