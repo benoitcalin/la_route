@@ -18,6 +18,7 @@ module.exports = {
     // Dealing with images with gatsby-images
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-fontawesome-css`,
