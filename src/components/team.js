@@ -61,7 +61,7 @@ export default function Team() {
               </h4>
 
               <p>Passions : sport, développement professionnel</p>
-              <p>Hobbies : découverte de territoires, décoration, découverte des territoires</p>
+              <p>Hobbies : découverte des territoires, décoration</p>
               <p>Atouts : sens du contact, vision prospective</p>
               <p className="mb-4">Points forts : persévérance, ambition</p>
 
