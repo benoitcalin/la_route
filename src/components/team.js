@@ -49,7 +49,7 @@ export default function Team() {
                   className="btn btn-geoness my-3"
                   target="_blank"
                 >
-                  CV
+                  Parcours Pro
                 </a>
               </div>
               <h3 className="mb-2">Marie-Julia GOUBOT</h3>
@@ -95,7 +95,7 @@ export default function Team() {
                   className="btn btn-geoness my-md-3"
                   target="_blank"
                 >
-                  CV
+                  Parcours Pro
                 </a>
               </div>
               <h3 className="mb-2">Coralie TOUVENOT</h3>
