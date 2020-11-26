@@ -7,9 +7,9 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `GEONESS Développement`,
-    siteUrl: `https://geoness.net/`,
-    description: `Spécialiste en expertise environnementale, à votre service par ses moyens et son expérience pour garantir la concrétisation de vos projets.`,
+    title: `La Route`,
+    siteUrl: `http://www.laroute.fr/`,
+    description: `Addition de compétences au sein d’une seule équipe, LA ROUTE c’est une approche différente du service transport.`,
     author: `Benoit CALIN`,
   },
   plugins: [

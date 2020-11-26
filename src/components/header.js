@@ -5,10 +5,9 @@ import Img from 'gatsby-image';
 export default function Header() {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "images/logo-linear.png" }) {
+      file(relativePath: { eq: "images/logo.png" }) {
         childImageSharp {
-          # Specify the image processing specifications right in the query.
-          fluid(maxWidth: 400) {
+          fluid(maxWidth: 240) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -68,25 +67,24 @@ export default function Header() {
         <div className="header-logo">
           <Img
             fluid={data.file.childImageSharp.fluid}
-            alt="Logo GEONESS barre de navigation"
-          />
+            alt="Logo GEONESS barre de navigation"          />
         </div>
       </Link>
       <div className="header-links">
         <Link className="linky" to="#who">
-          Qui sommes-nous ?
+          Histoire
         </Link>
         <Link className="linky" to="#need">
-          Vos besoins
+          Services
         </Link>
         <Link className="linky" to="#activities">
-          Nos activités
-        </Link>
-        <Link className="linky" to="#team">
-          Notre équipe
+          Implantations
         </Link>
         <Link className="linky" to="#footer">
           Contact
+        </Link>
+        <Link className="linky btn-laroute" to="#">
+          Espace Client
         </Link>
       </div>
       <div id="nav-icon1" onClick={handleClick}>
@@ -96,16 +94,13 @@ export default function Header() {
       </div>
       <div className="navbar-collapse">
         <Link className="linky" to="#who">
-          Qui sommes-nous ?
+          Histoire
         </Link>
         <Link className="linky" to="#need">
-          Vos besoins
+          Services
         </Link>
         <Link className="linky" to="#activities">
-          Nos activités
-        </Link>
-        <Link className="linky" to="#team">
-          Notre équipe
+          Implantations
         </Link>
         <Link className="linky" to="#footer">
           Contact

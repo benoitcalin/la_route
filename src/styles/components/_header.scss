@@ -1,5 +1,5 @@
 .header {
-  background: $brand-color;
+  background: transparent;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -7,22 +7,21 @@
   width: 100vw;
   height: 80px;
   z-index: 100;
-  font-weight: 600;
 }
 
 .navbar-collapse {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 70vw;
+  width: 50vw;
   position: absolute;
-  background-color: $brand-color;
+  background-color: white;
   top: 80px;
   right: 0;
   display:none;
   a {
     text-decoration: none;
-    color: white;
+    color: $brand-blue;
     margin: 10px;
     height: 35px;
   }
@@ -45,7 +44,7 @@ a {
     align-items: center;
     margin-left: 25px;
     .gatsby-image-wrapper {
-      width: 400px;
+      width: 120px;
     }
   }
 }
@@ -57,16 +56,15 @@ a {
   justify-content: space-evenly;
   height: 100%;
   a {
-    margin: 0 15px;
-    height: 80%;
+    margin: 0 30px;
     display:flex;
-    font-size: 18px;
+    font-size: 22px;
     align-items: center;
     color: white;
     text-decoration: none;
     &:hover {
       text-decoration: none;
-      color: $brand-brown;
+      color: $brand-yellow;
     }
   }
 }

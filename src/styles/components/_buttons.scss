@@ -1,24 +1,12 @@
-.btn-geoness-container {
-  width: 100%;
-  text-align:center;
-}
-
-.btn-geoness {
-  background-color: $brand-color;
+.btn-laroute {
+  background-color: $button-blue;
+  border: solid 2px $brand-yellow;
+  border-radius: 5px;
+  height: 50px;
+  padding: 0px 15px;
   color: white;
   &:hover {
     opacity: 0.9;
-  }
-}
-
-.btn-cv {
-  position: absolute;
-  right: 40px;
-  top: -16px;
-
-  width: 130px;
-  a {
-    margin:0;
-    width: 130px;
+    color: $brand-blue;
   }
 }
