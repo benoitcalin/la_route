@@ -7,6 +7,17 @@
   width: 100vw;
   height: 80px;
   z-index: 100;
+  transition: 0.5s background-color ease;
+}
+
+.header-white {
+  background-color: white;
+  #espace-client-header-button {
+    color: white;
+  }
+  .header-links a {
+    color: $brand-blue;
+  }
 }
 
 .navbar-collapse {
