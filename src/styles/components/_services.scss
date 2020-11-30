@@ -1,0 +1,17 @@
+.service-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+  .image-container {
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    padding-left: 20px;
+    max-width: 415px;
+  }
+}

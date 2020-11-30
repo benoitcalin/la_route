@@ -4,8 +4,8 @@
 @import "../../node_modules/slick-carousel/slick/slick-theme.css";
 
 // Graphical variables
-@import "config/fonts";
 @import "config/colors";
+@import "config/fonts";
 @import "config/bootstrap_variables";
 
 // Your CSS partials
@@ -14,6 +14,6 @@
 @import "pages/index";
 
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
 }

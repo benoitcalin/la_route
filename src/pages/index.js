@@ -2,24 +2,26 @@ import React from "react"
 import Header from "../components/header"
 import Layout from "../components/layout"
 import Banner from "../components/banner"
-import Who from "../components/who"
-import Need from "../components/need"
-import Activities from "../components/activities"
+import Footer from "../components/footer"
+import History from "../components/history"
+import Codes from "../components/codes"
+import ClientSpace from "../components/client_space"
+import Services from "../components/services"
 import Team from "../components/team"
-// import Footer from "../components/footer"
-import Team2 from "../components/team2"
+import Implantations from "../components/implantations"
 
 export default function Home() {
   return (
     <Layout>
       <Header />
       <Banner />
-      <Team2 />
-      <Who />
-      <Need />
-      <Activities />
+      <History />
+      <Codes />
+      <ClientSpace />
+      <Services />
       <Team />
-      {/* <Footer /> */}
+      <Implantations />
+      <Footer />
     </Layout>
   )
 }

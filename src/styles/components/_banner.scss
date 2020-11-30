@@ -1,5 +1,5 @@
 .slider-image {
-  height: 99vh;
+  height: 100vh;
   display: flex !important;
   justify-content: center;
   align-items: center;
@@ -8,20 +8,5 @@
     color: white;
     font-weight: 500;
     letter-spacing: 10px;
-  }
-  .down-arrow {
-
-  }
-}
-
-@media(max-width: 767px) {
-  .slider-image h1 {
-    font-size: 26px;
-  }
-}
-
-@media(max-width: 400px) {
-  .slider-image h1 {
-    font-size: 21px;
   }
 }

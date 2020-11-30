@@ -1,15 +1,19 @@
 @import 'header';
-@import 'layout';
 @import 'footer';
 @import 'banner';
 @import 'buttons';
-@import 'who';
-@import 'need';
-@import 'activities';
-@import 'team';
 @import 'mentions';
+@import 'history';
+@import 'codes';
+@import 'utilities';
+@import 'clientspace';
+@import 'services';
+@import 'implantations';
+@import 'team';
 
-#who, #need, #activities, #team {
-  padding-top: 80px;
-  margin-top: -80px;
-}
+// #who, #need, #activities, #team {
+//   padding-top: 80px;
+//   margin-top: -80px;
+// }
+
+// TODO => Scroll truc sur TIL

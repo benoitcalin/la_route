@@ -1,0 +1,24 @@
+.client-space-container {
+  h2 {
+    max-width: 1200px;
+    font-weight: 500;
+    letter-spacing: 5px;
+  }
+}
+
+.client-space-link {
+  margin: 0 30px;
+  display:flex;
+  font-size: 22px;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: $brand-yellow;
+  }
+}
+
+.my-client-space {
+  margin: 40px 0;
+}
