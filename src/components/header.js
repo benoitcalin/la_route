@@ -30,44 +30,33 @@ export default function Header() {
       }
     });
 
-    // const who = document.getElementById("who")
-    // const need = document.getElementById("need")
-    // const activities = document.getElementById("activities")
-    // const team = document.getElementById("team")
-    // const footer = document.getElementById("footer")
-    // const links = document.querySelectorAll(".header-links > a")
+    const history = document.getElementById("history")
+    const services = document.getElementById("services")
+    const implantations = document.getElementById("implantations")
+    const footer = document.getElementById("footer")
+    const links = document.querySelectorAll(".header-links > a")
 
-    // if (links) {
-    //   document.addEventListener('scroll', () => {
-    //     if (window.scrollY > (who.offsetTop - 10) && window.scrollY < need.offsetTop) {
-    //       links.forEach(link => link.classList.remove("active"))
-    //       links[0].classList.add("active")
-    //     } else if (
-    //       window.scrollY > (need.offsetTop - 10) &&
-    //       window.scrollY < activities.offsetTop
-    //     ) {
-    //       links.forEach(link => link.classList.remove("active"))
-    //       links[1].classList.add("active")
-    //     } else if (
-    //       window.scrollY > (activities.offsetTop - 10) &&
-    //       window.scrollY < team.offsetTop
-    //     ) {
-    //       links.forEach(link => link.classList.remove("active"))
-    //       links[2].classList.add("active")
-    //     } else if (window.scrollY >= document.documentElement.scrollHeight - window.innerHeight - 10) {
-    //       links.forEach(link => link.classList.remove("active"))
-    //       links[4].classList.add("active")
-    //     } else if (
-    //       window.scrollY > (team.offsetTop - 10) &&
-    //       window.scrollY < footer.offsetTop
-    //     ) {
-    //       links.forEach(link => link.classList.remove("active"))
-    //       links[3].classList.add("active")
-    //     } else {
-    //       links.forEach(link => link.classList.remove("active"))
-    //     }
-    //   })
-    // }
+    if (links) {
+      document.addEventListener('scroll', () => {
+        if (window.scrollY > (history.offsetTop - 10) && window.scrollY < services.offsetTop) {
+          links.forEach(link => link.classList.remove("active"))
+          links[0].classList.add("active")
+        } else if (
+          window.scrollY > (services.offsetTop - 10) &&
+          window.scrollY < implantations.offsetTop
+        ) {
+          links.forEach(link => link.classList.remove("active"))
+          links[1].classList.add("active")
+        } else if (
+          window.scrollY > (implantations.offsetTop - 10)
+        ) {
+          links.forEach(link => link.classList.remove("active"))
+          links[2].classList.add("active")
+        } else {
+          links.forEach(link => link.classList.remove("active"))
+        }
+      })
+    }
   })
 
   return (
@@ -76,17 +65,18 @@ export default function Header() {
         <div className="header-logo">
           <Img
             fluid={data.file.childImageSharp.fluid}
-            alt="Logo GEONESS barre de navigation"          />
+            alt="Logo LaRoute barre de navigation"
+          />
         </div>
       </Link>
       <div className="header-links">
-        <Link className="linky" to="#who">
+        <Link className="linky" to="#history">
           Histoire
         </Link>
-        <Link className="linky" to="#need">
+        <Link className="linky" to="#services">
           Services
         </Link>
-        <Link className="linky" to="#activities">
+        <Link className="linky" to="#implantations">
           Implantations
         </Link>
         <Link className="linky" to="#footer">
@@ -102,13 +92,13 @@ export default function Header() {
         <span></span>
       </div>
       <div className="navbar-collapse">
-        <Link className="linky" to="#who">
+        <Link className="linky" to="#history">
           Histoire
         </Link>
-        <Link className="linky" to="#need">
+        <Link className="linky" to="#services">
           Services
         </Link>
-        <Link className="linky" to="#activities">
+        <Link className="linky" to="#implantations">
           Implantations
         </Link>
         <Link className="linky" to="#footer">
