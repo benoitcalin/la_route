@@ -61,4 +61,15 @@
   #bordeaux { left: 85px; top: 199px; }
   #rouen { left: 108px; top: 87px; }
   #paris { left: 153px; top: 94px; }
+  #implantations {
+    .text-map {
+      padding-left: 0 !important;
+    }
+    .team-picture {
+      width: 250px;
+      picture img {
+        left: -23px !important;
+      }
+    }
+  }
 }

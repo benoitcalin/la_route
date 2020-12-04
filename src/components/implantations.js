@@ -83,17 +83,18 @@ export default function Implantations() {
             </BackgroundImage>
           </div>
           <div className="col-sm-12 col-md-6">
-            <div className="my-4 pl-4">
+            <div className="text-map my-4 pl-4">
               <h3 className="text-left my-4" style={{ fontWeight: '600' }}>
                 Bordeaux
               </h3>
               <p>
                 Fondée en 1934 par Louis René Dalençon, la société La Route est spécialisée dans le transport routier de marchandise. Il obtient en 1950 le statut honorifique de Président National des Affréteurs Routiers.  En 1967 sa fille, Mademoiselle Claude Dalençon, reprend l’affaire familiale, elle est encore aujourd’hui un visage emblématique de l’entreprise.
               </p>
-              <div className="image-center team-picture">
+              <div className="image-center">
                 <Img
                     fluid={data.teamBordeaux.childImageSharp.fluid}
                     alt="ville"
+                    className='team-picture'
                     style={{ width: "400px" }}
                     imgStyle={{
                       width: "400px",
