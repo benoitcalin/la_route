@@ -5,7 +5,14 @@ import Img from 'gatsby-image';
 export default function Header() {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "images/logo.png" }) {
+      file1: file(relativePath: { eq: "images/logo.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 240) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      file2: file(relativePath: { eq: "images/logo-trans.png" }) {
         childImageSharp {
           fluid(maxWidth: 240) {
             ...GatsbyImageSharpFluid
@@ -22,11 +29,18 @@ export default function Header() {
 
   useEffect(() => {
     const navbar = document.querySelector('.header');
+    const logoWhite = document.querySelector('#logo-white');
+    const logoTrans = document.querySelector('#logo-trans');
+
     window.addEventListener('scroll', () => {
       if (window.scrollY >= window.innerHeight) {
         navbar.classList.add('header-white');
+        logoWhite.classList.remove('d-none')
+        logoTrans.classList.add('d-none')
       } else {
         navbar.classList.remove('header-white');
+        logoWhite.classList.add('d-none')
+        logoTrans.classList.remove('d-none')
       }
     });
 
@@ -62,9 +76,15 @@ export default function Header() {
   return (
     <div className="header">
       <Link to="#start">
-        <div className="header-logo">
+        <div id="logo-white" className="header-logo d-none">
           <Img
-            fluid={data.file.childImageSharp.fluid}
+            fluid={data.file1.childImageSharp.fluid}
+            alt="Logo LaRoute barre de navigation"
+          />
+        </div>
+        <div id="logo-trans" className="header-logo">
+          <Img
+            fluid={data.file2.childImageSharp.fluid}
             alt="Logo LaRoute barre de navigation"
           />
         </div>
