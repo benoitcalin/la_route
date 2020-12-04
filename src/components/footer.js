@@ -20,7 +20,7 @@ export default function Footer() {
                 Mail : laroute33@laroute.fr
               </p>
               <p>
-                Tel : 06 - 00 - 11 - 22 - 33
+                Tel : 05.56.35.05.25
               </p>
             </div>
 

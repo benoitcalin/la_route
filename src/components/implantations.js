@@ -88,7 +88,11 @@ export default function Implantations() {
                 Bordeaux
               </h3>
               <p>
-                Fondée en 1934 par Louis René Dalençon, la société La Route est spécialisée dans le transport routier de marchandise. Il obtient en 1950 le statut honorifique de Président National des Affréteurs Routiers.  En 1967 sa fille, Mademoiselle Claude Dalençon, reprend l’affaire familiale, elle est encore aujourd’hui un visage emblématique de l’entreprise.
+                Premier lieu d’implantation de l’entreprise, ouvert en 1934, le bureau de Bordeaux est aujourd’hui le siège social de l’entreprise.
+                <br/>
+                Ses nouveaux locaux inaugurés en mai 2021 accueillent une équipe soudée, portée depuis presque 10 ans par l’excellence et l’inépuisable énergie de Mickaël Cabe.
+                <br/>
+                L’adaptabilité du bureau face à la multiplicité de ses domaines d’activité (Navettes, livraison sur chantier, import/export, express,… ) en fait un bureau résilient et réactif.
               </p>
               <div className="image-center">
                 <Img
