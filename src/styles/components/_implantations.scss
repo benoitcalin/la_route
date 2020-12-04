@@ -15,3 +15,50 @@
   top: 166px;
   left: 270px;
 }
+
+@media(max-width: 1300px) {
+  #implantations {
+    .team-picture {
+      .gatsby-image {
+        width: 320px;
+        img {
+          width: 320px;
+        }
+      }
+    }
+  }
+  #bordeaux { left: 125px; }
+  #rouen { left: 166px; }
+  #paris { left: 243px; }
+}
+
+@media(max-width: 1200px) {
+  #bordeaux { left: 98px; }
+  #rouen { left: 139px; }
+  #paris { left: 216px; }
+}
+
+@media(max-width: 1100px) {
+  #bordeaux { left: 76px; }
+  #rouen { left: 117px; }
+  #paris { left: 194px; }
+}
+
+@media(max-width: 768px) {
+  #bordeaux { left: 152px; }
+  #rouen { left: 193px; }
+  #paris { left: 270px; }
+}
+
+@media(max-width: 576px) {
+  .france-map { width: 300px !important; height: 300px !important}
+  .markers {
+    width: 20px !important;
+    img {
+      width: 20px !important;
+    }
+  }
+  #bordeaux { left: 85px; top: 199px; }
+  #rouen { left: 108px; top: 87px; }
+  #paris { left: 153px; top: 94px; }
+}

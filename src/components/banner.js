@@ -100,9 +100,9 @@ export default function Banner() {
               size="1x"
               className="text-transparent"
             />
-            <div>
-              <h1>Tautliner – Fourgon – Frigo</h1>
-              <h1>Plateau – Porteur – Hayon - Benne</h1>
+            <div className="text-center">
+              <h1>Tautliner <span className="tiret">–</span> Fourgon <span className="tiret">–</span> Frigo</h1>
+              <h1>Plateau <span className="tiret">–</span> Porteur <span className="tiret">–</span> Hayon <span className="tiret">–</span> Benne</h1>
             </div>
             <FontAwesomeIcon
               icon={faSortDown}

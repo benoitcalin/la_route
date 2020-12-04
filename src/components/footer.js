@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <div className="footer" id="footer">
       <div className="laroute-container-xl h-100">
-        <div className="d-flex justify-content-between align-items-center h-100">
-          <div className="h-100 d-flex align-items-center">
+        <div className="d-flex justify-content-sm-between justify-content-center align-items-center h-100 flex-wrap flex-sm-nowrap">
+          <div className="h-100 d-flex align-items-center left-part">
             <div className="link-footer">
               <Link to="/mentions">
                 Mentions Légales

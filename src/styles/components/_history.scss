@@ -9,3 +9,9 @@
   opacity: 0.5;
   margin-top: 60px;
 }
+
+@media(max-width: 768px) {
+  #history .gatsby-image-wrapper {
+    margin-top: 20px;
+  }
+}

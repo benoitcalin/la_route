@@ -35,7 +35,7 @@ export default function Services() {
   return (
     <div className="w-100 d-flex align-items-center justify-content-center" id="codes">
       <div className="laroute-container-xl mb-laroute">
-        <h2 className="mb-laroute">Les codes de La Route</h2>
+        <h2 className="mb-laroute text-md-left text-center">Les codes de La Route</h2>
         <div className="row">
           <div className="col-sm-12 col-md-4 d-flex flex-column align-items-center">
             <Img

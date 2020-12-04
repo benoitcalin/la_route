@@ -24,3 +24,12 @@
     }
   }
 }
+
+@media(max-width: 576px) {
+  #footer {
+    height: auto;
+    .left-part {
+      height: 50px !important;
+    }
+  }
+}

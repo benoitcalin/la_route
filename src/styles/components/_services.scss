@@ -15,3 +15,9 @@
     max-width: 415px;
   }
 }
+
+@media(max-width: 1100px) {
+  .image-container {
+    .gatsby-image-wrapper { width: 85px !important; }
+  }
+}

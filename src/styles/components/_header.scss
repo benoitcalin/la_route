@@ -152,34 +152,12 @@ a {
   transform: rotate(-135deg);
 }
 
-@media(max-width: 1200px) {
-  a {
-    .header-logo {
-      margin-left: 15px;
-      .gatsby-image-wrapper {
-        width: 300px;
-      }
-    }
-  }
-  .header-links a {
-    font-size: 14px;
-  }
-}
-
 @media(max-width: 996px) {
   .header {
     padding: 0 1%;
     a {
       text-align: center;
-      .header-logo {
-        margin-left: 10px;
-        .gatsby-image-wrapper {
-          width: 250px;
-        }
-      }
-    }
-    .header-links a {
-      font-size: 14px;
+      font-size: 17px;
     }
   }
 }
@@ -229,7 +207,7 @@ a {
     a {
       .header-logo {
         .gatsby-image-wrapper {
-          width: 220px;
+          width: 125px;
         }
       }
     }

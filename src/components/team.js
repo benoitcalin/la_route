@@ -54,37 +54,34 @@ export default function Team() {
                 <Img
                   fluid={data.adrien.childImageSharp.fluid}
                   alt="Adrien"
-                  style={{ width: "300px", marginBottom: '15px' }}
+                  style={{ marginBottom: '15px' }}
                   imgStyle={{
-                    width: "300px",
                     objectFit: "contain",
                   }}
                 />
-                <h3>Adrien Maire</h3>
+                <h3 className="mb-md-2 mb-4">Adrien Maire</h3>
               </div>
               <div className="col-sm-12 col-md-4 d-flex flex-column align-items-center">
                 <Img
                   fluid={data.emma.childImageSharp.fluid}
                   alt="Emma"
-                  style={{ width: "300px", marginBottom: '15px' }}
+                  style={{ marginBottom: '15px' }}
                   imgStyle={{
-                    width: "300px",
                     objectFit: "contain",
                   }}
                 />
-                <h3>Emma Le Guerrannic</h3>
+                <h3 className="mb-md-2 mb-4">Emma Le Guerrannic</h3>
               </div>
               <div className="col-sm-12 col-md-4 d-flex flex-column align-items-center">
                 <Img
                   fluid={data.mickael.childImageSharp.fluid}
                   alt="Mickael"
-                  style={{ width: "300px", marginBottom: '15px' }}
+                  style={{ marginBottom: '15px' }}
                   imgStyle={{
-                    width: "300px",
                     objectFit: "contain",
                   }}
                 />
-                <h3>Mickaël Cabe</h3>
+                <h3 className="mb-md-2 mb-4">Mickaël Cabe</h3>
               </div>
             </div>
           </div>

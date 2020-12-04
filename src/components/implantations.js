@@ -36,17 +36,19 @@ export default function Implantations() {
   return (
     <div id="implantations" className="w-100 d-flex align-items-center justify-content-center">
       <div className="laroute-container-xl d-flex flex-column">
-        <h2 className="mb-4 text-left">Nos Implantations</h2>
+        <h2 className="mb-md-4 mb-5 text-md-left text-center">Nos Implantations</h2>
         <div className="row">
-          <div className="col-sm-12 col-md-6 d-flex align-items-center pr-4">
+          <div className="col-sm-12 col-md-6 d-flex align-items-center justify-content-center pr-4">
             <BackgroundImage
               fluid={data.background.childImageSharp.fluid}
               style={{ width: "530px", height: "530px" }}
+              className="france-map"
             >
               <div id="bordeaux">
                 <Img
                   fluid={data.city.childImageSharp.fluid}
                   alt="ville"
+                  className="markers"
                   style={{ width: "35px" }}
                   imgStyle={{
                     width: "35px",
@@ -58,6 +60,7 @@ export default function Implantations() {
                 <Img
                   fluid={data.city.childImageSharp.fluid}
                   alt="ville"
+                  className="markers"
                   style={{ width: "35px" }}
                   imgStyle={{
                     width: "35px",
@@ -69,6 +72,7 @@ export default function Implantations() {
                 <Img
                   fluid={data.city.childImageSharp.fluid}
                   alt="ville"
+                  className="markers"
                   style={{ width: "35px" }}
                   imgStyle={{
                     width: "35px",
@@ -86,7 +90,7 @@ export default function Implantations() {
               <p>
                 Fondée en 1934 par Louis René Dalençon, la société La Route est spécialisée dans le transport routier de marchandise. Il obtient en 1950 le statut honorifique de Président National des Affréteurs Routiers.  En 1967 sa fille, Mademoiselle Claude Dalençon, reprend l’affaire familiale, elle est encore aujourd’hui un visage emblématique de l’entreprise.
               </p>
-              <div className="image-center">
+              <div className="image-center team-picture">
                 <Img
                     fluid={data.teamBordeaux.childImageSharp.fluid}
                     alt="ville"
