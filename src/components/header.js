@@ -52,10 +52,6 @@ export default function Header() {
 
     if (links) {
       document.addEventListener('scroll', () => {
-        console.log(footer.offsetTop - window.innerHeight)
-        console.log(window.scrollY)
-        console.log(window.scrollY > (footer.offsetTop - window.innerHeight))
-
         if (window.scrollY > (history.offsetTop - 100) &&
           window.scrollY < services.offsetTop - 100) {
           links.forEach(link => link.classList.remove("active"))
