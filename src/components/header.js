@@ -52,17 +52,28 @@ export default function Header() {
 
     if (links) {
       document.addEventListener('scroll', () => {
-        if (window.scrollY > (history.offsetTop - 10) && window.scrollY < services.offsetTop) {
+        console.log(footer.offsetTop - window.innerHeight)
+        console.log(window.scrollY)
+        console.log(window.scrollY > (footer.offsetTop - window.innerHeight))
+
+        if (window.scrollY > (history.offsetTop - 100) &&
+          window.scrollY < services.offsetTop - 100) {
           links.forEach(link => link.classList.remove("active"))
           links[0].classList.add("active")
         } else if (
-          window.scrollY > (services.offsetTop - 10) &&
-          window.scrollY < implantations.offsetTop
+          window.scrollY > (services.offsetTop - 100) &&
+          window.scrollY < implantations.offsetTop - 100
         ) {
           links.forEach(link => link.classList.remove("active"))
           links[1].classList.add("active")
         } else if (
-          window.scrollY > (implantations.offsetTop - 10)
+          window.scrollY > (footer.offsetTop - window.innerHeight)
+        ) {
+          links.forEach(link => link.classList.remove("active"))
+          links[3].classList.add("active")
+        } else if (
+          window.scrollY > (implantations.offsetTop - 100) &&
+          window.scrollY < (footer.offsetTop - window.innerHeight)
         ) {
           links.forEach(link => link.classList.remove("active"))
           links[2].classList.add("active")
