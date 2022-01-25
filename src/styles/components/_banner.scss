@@ -12,6 +12,12 @@
 }
 
 @media(max-width: 400px) {
+  .service-card {
+    flex-direction: column;
+    .image-container {
+      margin-bottom: 10px;
+    }
+  }
   .tiret {
     display: none;
   }
