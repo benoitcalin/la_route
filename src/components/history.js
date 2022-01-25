@@ -17,7 +17,7 @@ export default function History() {
   `)
 
   return (
-    <div id="history" className="w-100 d-flex align-items-center justify-content-center">
+    <div id="history" className="w-100 d-flex align-items-center justify-content-center mt-2">
       <div className="laroute-container-xl d-flex flex-column align-items-center">
         <div className="row">
           <div className="col-sm-12 col-md-6 d-flex align-items-center pr-4">

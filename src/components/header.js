@@ -46,7 +46,7 @@ export default function Header() {
 
     const history = document.getElementById("history")
     const services = document.getElementById("services")
-    const implantations = document.getElementById("implantations")
+    // const implantations = document.getElementById("implantations")
     const footer = document.getElementById("footer")
     const links = document.querySelectorAll(".header-links > a")
 
@@ -56,23 +56,23 @@ export default function Header() {
           window.scrollY < services.offsetTop - 100) {
           links.forEach(link => link.classList.remove("active"))
           links[0].classList.add("active")
-        } else if (
-          window.scrollY > (services.offsetTop - 100) &&
-          window.scrollY < implantations.offsetTop - 100
-        ) {
-          links.forEach(link => link.classList.remove("active"))
-          links[1].classList.add("active")
+        // } else if (
+        //   window.scrollY > (services.offsetTop - 100) &&
+        //   window.scrollY < implantations.offsetTop - 100
+        // ) {
+        //   links.forEach(link => link.classList.remove("active"))
+        //   links[1].classList.add("active")
         } else if (
           window.scrollY > (footer.offsetTop - window.innerHeight)
         ) {
           links.forEach(link => link.classList.remove("active"))
           links[3].classList.add("active")
-        } else if (
-          window.scrollY > (implantations.offsetTop - 100) &&
-          window.scrollY < (footer.offsetTop - window.innerHeight)
-        ) {
-          links.forEach(link => link.classList.remove("active"))
-          links[2].classList.add("active")
+        // } else if (
+        //   window.scrollY > (implantations.offsetTop - 100) &&
+        //   window.scrollY < (footer.offsetTop - window.innerHeight)
+        // ) {
+        //   links.forEach(link => link.classList.remove("active"))
+        //   links[2].classList.add("active")
         } else {
           links.forEach(link => link.classList.remove("active"))
         }
@@ -103,9 +103,9 @@ export default function Header() {
         <Link className="linky" to="#services">
           Services
         </Link>
-        <Link className="linky" to="#implantations">
+        {/* <Link className="linky" to="#implantations">
           Implantations
-        </Link>
+        </Link> */}
         <Link className="linky" to="#footer">
           Contact
         </Link>
@@ -125,9 +125,9 @@ export default function Header() {
         <Link className="linky" to="#services">
           Services
         </Link>
-        <Link className="linky" to="#implantations">
+        {/* <Link className="linky" to="#implantations">
           Implantations
-        </Link>
+        </Link> */}
         <Link className="linky" to="#footer">
           Contact
         </Link>

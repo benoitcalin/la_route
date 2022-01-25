@@ -8,7 +8,7 @@ export default function ClientSpace() {
       image1: file(relativePath: { eq: "images/blue-truck.jpg" }) {
         childImageSharp {
           # Specify the image processing specifications right in the query.
-          fluid(maxWidth: 400) {
+          fluid(maxWidth: 2000) {
             ...GatsbyImageSharpFluid
           }
         }

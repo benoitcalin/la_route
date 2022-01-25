@@ -18,7 +18,7 @@ export default function Banner() {
           node {
             childImageSharp {
               # Specify the image processing specifications right in the query.
-              fluid {
+              fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid
               }
             }

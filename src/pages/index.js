@@ -7,7 +7,6 @@ import History from "../components/history"
 import Codes from "../components/codes"
 import ClientSpace from "../components/client_space"
 import Services from "../components/services"
-import Team from "../components/team"
 import Implantations from "../components/implantations"
 
 export default function Home() {
@@ -19,7 +18,6 @@ export default function Home() {
       <Codes />
       <ClientSpace />
       <Services />
-      <Team />
       <Implantations />
       <Footer />
     </Layout>
