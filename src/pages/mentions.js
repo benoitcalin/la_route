@@ -63,7 +63,7 @@ export default function Home() {
 
       <p>L’objectif est d’apporter une prestation qui assure le meilleur taux d’accessibilité. L’hébergeur assure la continuité de son service 24 Heures sur 24, tous les jours de l’année. Il se réserve néanmoins la possibilité d’interrompre le service d’hébergement pour les durées les plus courtes possibles notamment à des fins de maintenance, d’amélioration de ses infrastructures, de défaillance de ses infrastructures ou si les Prestations et Services génèrent un trafic réputé anormal.</p>
 
-      <p><a href="https://www.laroute.fr/">https://www.laroute.fr/</a> et l’hébergeur ne pourront être tenus responsables en cas de dysfonctionnement du réseau Internet, des lignes téléphoniques ou du matériel informatique et de téléphonie lié notamment à l’encombrement du réseau empêchant l’accès au serveur.</p>
+      <p><a href="https://www.laroute.fr/">https://www.laroute.fr/</a> et l’hébergeur ne pourront être tenus responsables en cas de dysfonctionnement du Réseau Internet, des lignes téléphoniques ou du matériel informatique et de téléphonie lié notamment à l’encombrement du réseau empêchant l’accès au serveur.</p>
 
       <h2>5. Propriété intellectuelle et contrefaçons.</h2>
 

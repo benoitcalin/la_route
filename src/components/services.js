@@ -178,7 +178,7 @@ export default function Services() {
                     }}
                   />
                 </div>
-                <p className="">Camions aux dernières normes de pollution atmosphériques, Géolocalisés et changés tous les 4 ans</p>
+                <p className="">Camions aux dernières normes de pollution atmosphériques, géolocalisés et changés tous les 4 ans</p>
               </div>
               <div className="service-card">
                 <div className="image-container">

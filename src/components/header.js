@@ -109,8 +109,8 @@ export default function Header() {
         <Link className="linky" to="#footer">
           Contact
         </Link>
-        <Link className="linky btn-laroute" id="espace-client-header-button" to="#">
-          Espace Client
+        <Link className="linky btn-laroute" to="https://portailwebgpi.azurewebsites.net/?url=Fournisseur/140891/CL&ID=laroute" target="_blank">
+          Espace Transporteur
         </Link>
       </div>
       <div id="nav-icon1" onClick={handleClick}>
@@ -130,6 +130,10 @@ export default function Header() {
         </Link> */}
         <Link className="linky" to="#footer">
           Contact
+        </Link>
+
+        <Link className="linky" to="https://portailwebgpi.azurewebsites.net/?url=Fournisseur/140891/CL&ID=laroute" target="_blank">
+          Espace Transporteur
         </Link>
       </div>
     </div>

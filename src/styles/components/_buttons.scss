@@ -4,9 +4,20 @@
   border-radius: 5px;
   height: 50px;
   padding: 0px 15px;
-  color: white;
+  color: white !important;
   &:hover {
     opacity: 0.9;
     color: $brand-blue;
   }
 }
+
+.btn-laroute.disabled {
+  background-color: grey;
+  border-color: white;
+  opacity: 0.9;
+  &:hover {
+    opacity: 0.9;
+    color: white;
+  }
+}
+
