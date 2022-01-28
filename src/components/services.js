@@ -192,7 +192,7 @@ export default function Services() {
                     }}
                   />
                 </div>
-                <p className="">Affrétés permanents / Associés / réseau international de collaborateurs</p>
+                <p className="">Affrétés permanents / Associés / Réseau international de collaborateurs</p>
               </div>
             </div>
           </div>
